@@ -7,7 +7,7 @@ public class GenericsExercise {
     public static void main(String[] args) {
         ArrayList<Object> variables = new ArrayList<Object>();
         Double doubleNumber = 1.5;
-        String name = "Sally";
+        String name = "Bindu";
         Integer intNumber = 4;
         Character letter = 'c';
 
