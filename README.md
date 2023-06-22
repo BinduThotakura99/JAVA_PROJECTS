@@ -48,9 +48,13 @@ POLYMORPHISM ::: which is the ability for an object to take on many forms.
 STEP2 : ADVANCE CONCEPTS
 
 Exceptions                  :: which help us handle errors.
+
 Enums                       :: which help us set variables from a list of predefined values.
+
 Dates and Calendar          :: which help us store and retrieve dates.
+
 Regular Expressions (RegEx) :: which help us look for string patterns.
+
 Advanced String features    :: which will help us manipulate and process strings more efficiently.
 
 GENERICS ::: Generics are a way to parameterize class types into classes, methods and variables so that we eliminate the need for casting, have stronger type checks at compile time, and develop generic algorithms.
