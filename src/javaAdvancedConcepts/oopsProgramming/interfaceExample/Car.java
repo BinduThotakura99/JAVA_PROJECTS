@@ -1,0 +1,33 @@
+package javaAdvancedConcepts.oopsProgramming.interfaceExample;
+
+// We can implement more than one interface at a time
+public class Car implements Vehicle, Production{
+    private String type;
+    private String speed;
+    private String color;
+
+    public Car(String type, String speed, String color ){
+        this.type = type;
+        this.speed = speed;
+        this.color = color;
+    }
+
+    @Override
+    public String getType(){
+        return type;
+    }
+
+    @Override
+    public String getSpeed() {
+        return speed;
+    }
+    @Override
+    public String getColor() {
+        return color;
+    }
+
+    @Override
+    public void location() {
+        System.out.println("California");
+    }
+}
